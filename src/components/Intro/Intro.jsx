@@ -14,8 +14,8 @@ const Intro = () => {
 					Website Designer
 				</span>
 				<p className="introPara">
-					I am a skilled web designer with experience in creating visually
-					appealing and user friendly websites.
+					I am a skilled web designer with experience in creating <br />{" "}
+					visually appealing and user friendly websites.
 				</p>
 				<Link>
 					<button className="btn">
