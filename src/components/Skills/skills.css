@@ -16,3 +16,10 @@
 	padding-top: 3rem;
 	margin-bottom: 1.5rem;
 }
+
+.skillDesc {
+	font-weight: 400;
+	font-size: 0.9rem;
+	max-width: 51rem;
+	padding: 0 2rem;
+}
