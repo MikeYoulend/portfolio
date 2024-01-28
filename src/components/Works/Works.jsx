@@ -12,10 +12,7 @@ const Works = () => {
 		<section id="works">
 			<h2 className="workstitle">My Portfolio</h2>
 			<span className="worksDesc">
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, in
-				distinctio aut voluptatem placeat ex, repellendus quisquam autem
-				dignissimos animi magni? Aliquid modi praesentium similique voluptas,
-				cupiditate sit enim rem.
+				Explore my portfolio to discover a collection of my projects.
 			</span>
 			<div className="worksImgs">
 				<img src={Portfolio1} alt="" className="worksImg" />

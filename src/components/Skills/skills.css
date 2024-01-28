@@ -51,6 +51,21 @@
 	font-weight: 100;
 }
 
+#Software {
+	width: 100vw;
+	max-width: 50rem;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.SoftwareImg {
+	height: 5rem;
+	width: 5rem;
+}
+
 @media screen and (max-width: 720px) {
 	.skillBarText > p {
 		font-size: 2vw;
@@ -67,5 +82,9 @@
 	}
 	.skillBarText > h2 {
 		font-size: 5vw;
+	}
+	.SoftwareImg {
+		height: 2.5rem;
+		width: 2.5rem;
 	}
 }

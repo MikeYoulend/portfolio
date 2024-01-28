@@ -29,7 +29,7 @@ const Navbar = () => {
 					duration={500}
 					className="desktopMenuListItem"
 				>
-					About
+					What I do
 				</Link>
 				<Link
 					activeClass="active"
