@@ -45,6 +45,7 @@
 	background: white;
 	border-radius: 2rem;
 	font-size: 1rem;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 585px) {

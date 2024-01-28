@@ -1,11 +1,11 @@
 import React from "react";
 import "./works.css";
-import Portfolio1 from "../../assets/portfolio-1.png";
-import Portfolio2 from "../../assets/portfolio-2.png";
-import Portfolio3 from "../../assets/portfolio-3.png";
-import Portfolio4 from "../../assets/portfolio-4.png";
-import Portfolio5 from "../../assets/portfolio-5.png";
-import Portfolio6 from "../../assets/portfolio-6.png";
+import Portfolio1 from "../../assets/portfolio1.png";
+import Portfolio2 from "../../assets/portfolio2.png";
+import Portfolio3 from "../../assets/portfolio3.png";
+import Portfolio4 from "../../assets/portfolio4.png";
+import Portfolio5 from "../../assets/portfolio5.png";
+import Portfolio6 from "../../assets/portfolio6.png";
 
 const Works = () => {
 	return (
@@ -15,14 +15,34 @@ const Works = () => {
 				Explore my portfolio to discover a collection of my projects.
 			</span>
 			<div className="worksImgs">
-				<img src={Portfolio1} alt="" className="worksImg" />
-				<img src={Portfolio2} alt="" className="worksImg" />
-				<img src={Portfolio3} alt="" className="worksImg" />
-				<img src={Portfolio4} alt="" className="worksImg" />
-				<img src={Portfolio5} alt="" className="worksImg" />
-				<img src={Portfolio6} alt="" className="worksImg" />
+				<a
+					href="https://github.com/MikeYoulend/Capstone-Project"
+					target="_blank"
+				>
+					<img src={Portfolio1} alt="" className="worksImg" />
+				</a>
+				<a href="https://github.com/MikeYoulend/M5-verify" target="_blank">
+					<img src={Portfolio2} alt="" className="worksImg" />
+				</a>
+				<a href="https://github.com/MikeYoulend/Stopwatch" target="_blank">
+					<img src={Portfolio3} alt="" className="worksImg" />
+				</a>
+				<a
+					href="https://github.com/MikeYoulend/QR-Code-Generator"
+					target="_blank"
+				>
+					<img src={Portfolio4} alt="" className="worksImg" />
+				</a>
+				<a href="https://github.com/MikeYoulend/Modulo-3-Test" target="_blank">
+					<img src={Portfolio5} alt="" className="worksImg" />
+				</a>
+				<a href="https://github.com/MikeYoulend/Modulo-1-Test" target="_blank">
+					<img src={Portfolio6} alt="" className="worksImg" />
+				</a>
 			</div>
-			<button className="workBtn">See More</button>
+			<a href="https://github.com/MikeYoulend" target="_blank">
+				<button className="workBtn">My Github</button>
+			</a>
 		</section>
 	);
 };
