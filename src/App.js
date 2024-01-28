@@ -1,3 +1,4 @@
+import Contact from "./components/Contact/Contact";
 import Intro from "./components/Intro/Intro";
 import Skills from "./components/Skills/Skills";
 import Works from "./components/Works/Works";
@@ -10,6 +11,7 @@ function App() {
 			<Intro />
 			<Skills />
 			<Works />
+			<Contact />
 		</div>
 	);
 }
