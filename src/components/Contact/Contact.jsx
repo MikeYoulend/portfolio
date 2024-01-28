@@ -4,8 +4,8 @@ import Walmart from "../../assets/walmart.png";
 import Adobe from "../../assets/adobe.png";
 import Microsoft from "../../assets/microsoft.png";
 import Facebook from "../../assets/facebook.png";
-import FacebookIcon from "../../assets/facebook-icon.png";
-import InstagramIcon from "../../assets/instagram.png";
+import EmailIcon from "../../assets/EmailIcon.png";
+
 import LinkedinIcon from "../../assets/LinkedinIcon.png";
 import WhatsappIcon from "../../assets/WhatsappIcon.png";
 
@@ -27,33 +27,28 @@ const Contact = () => {
 					<img src={Facebook} alt="Client" className="clientImg" />
 				</div>
 			</div>
+
 			<div id="contact">
-				<h1 className="contactPageTitle">Contact Me</h1>
-				<span className="contactDesc">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum quos
-					quia necessitatibus facere incidunt, aliquid harum facilis at delectus
-					earum consequuntur fugit minima optio ipsam illum quo velit dolore
-					hic!
-				</span>
-				<form action="" className="contactForm">
-					<input type="text" className="name" placeholder="Your Name" />
-					<input type="email" className="email" placeholder="Your Email" />
-					<textarea
-						className="msg"
-						name="message"
-						rows="5"
-						placeholder="Your Message"
-					></textarea>
-					<button type="submit" value="Send" className="submitBtn">
-						Submit
-					</button>
-					<div className="links">
-						<img src={FacebookIcon} alt="Facebook" className="link" />
-						<img src={InstagramIcon} alt="Instragram" className="link" />
-						<img src={LinkedinIcon} alt="Linkedin" className="link" />
-						<img src={WhatsappIcon} alt="Whatsapp" className="link" />
-					</div>
-				</form>
+				<h1>Contact Me</h1>
+				<a
+					href="https://www.linkedin.com/in/michele-lo-presti-88954b1b7/"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src={LinkedinIcon} alt="Linkedin" className="link" type="link" />
+				</a>
+
+				<a
+					href="https://wa.me/3519485657"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<img src={WhatsappIcon} alt="Whatsapp" className="link" />
+				</a>
+
+				<a href="mailto:michelelopresti9717@gmail.com">
+					<img src={EmailIcon} alt="Email" className="link" />
+				</a>
 			</div>
 		</section>
 	);
