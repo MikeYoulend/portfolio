@@ -10,12 +10,13 @@ const Intro = () => {
 			<div className="IntroContent">
 				<span className="hello">Hello,</span>
 				<span className="introText">
-					I'm <span className="introName">Smith</span> <br />
-					Website Designer
+					I'm <span className="introName">Michele</span> <br />
+					Front-end Developer
 				</span>
 				<p className="introPara">
-					I am a skilled web designer with experience in creating <br />{" "}
-					visually appealing and user friendly websites.
+					I'm a junior web designer passionate about crafting visually <br></br>{" "}
+					appealing and user-friendly websites. Eager to learn and <br></br>I am
+					looking to expand my knowledge of front-end development.
 				</p>
 				<Link>
 					<button className="btn">

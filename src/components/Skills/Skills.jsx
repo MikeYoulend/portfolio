@@ -9,29 +9,26 @@ const Skills = () => {
 		<section id="skills">
 			<span className="skillTitle">What I do</span>
 			<span className="skillDesc">
-				I am a skilled web designer with experience in creating <br /> visually
-				appealing and user friendly websites.
+				I am a junior web designer with a strong enthusiasm for learning and
+				honing my skills.
 			</span>
 			<div className="skillBars">
 				<div className="skillBar">
 					<img src={UIDesign} alt="UIDesign" className="skillBarImg" />
 					<div className="skillBarText">
 						<h2>UI/UX Design</h2>
-						<p>This is a demo text, you can write here</p>
 					</div>
 				</div>
 				<div className="skillBar">
 					<img src={WebDesign} alt="WebDesign" className="skillBarImg" />
 					<div className="skillBarText">
 						<h2>Website Design</h2>
-						<p>This is a demo text, you can write here</p>
 					</div>
 				</div>
 				<div className="skillBar">
 					<img src={AppDesign} alt="AppDesign" className="skillBarImg" />
 					<div className="skillBarText">
-						<h2>App design</h2>
-						<p>This is a demo text, you can write here</p>
+						<h2>Mobile-Friendly Design</h2>
 					</div>
 				</div>
 			</div>
