@@ -1,8 +1,4 @@
-
-
-
-    <h1>Portfolio live</h1>
-    <a href=https://master--teal-cocada-abd6f3.netlify.app/>Portfolio </a>
+[Portfolio live](https://master--teal-cocada-abd6f3.netlify.app/)
 
 
 # Getting Started with Create React App
