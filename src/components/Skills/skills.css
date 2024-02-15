@@ -59,6 +59,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .SoftwareImg {
@@ -69,6 +70,9 @@
 @media screen and (max-width: 720px) {
 	.skillBarText > p {
 		font-size: 2vw;
+	}
+	#Software {
+		max-width: 25rem;
 	}
 }
 
@@ -83,6 +87,7 @@
 	.skillBarText > h2 {
 		font-size: 5vw;
 	}
+
 	.SoftwareImg {
 		height: 2.5rem;
 		width: 2.5rem;
